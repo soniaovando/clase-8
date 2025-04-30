@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+li{
+    padding: 20px;
+    border-radius: 10px;
+}
+nav li:hover{
+    background-color: grey;
+    
+}
+header{
+    background-color: black;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    margin:  0px 100px;
+}
+.s2,.s3{
+    margin-top: 60px;
+}
+.s3 p{
+    padding: 80px;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+}
+.s3{
+    background-image: url("../images/marco-der.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
